@@ -1,4 +1,4 @@
-# AI Credit Risk Prediction Model
+# Credit Risk Prediction System
 
 An end-to-end machine learning system for credit default risk assessment built on LendingClub loan records. The project implements data leakage prevention, class imbalance handling, tree-based gradient boosting (XGBoost), model explainability using SHAP, and a RESTful prediction API powered by FastAPI.
 
@@ -197,7 +197,7 @@ All libraries, tools, and versions verified directly from project dependency fil
 ## Project Structure
 
 ```
-AI_Credit_Risk_Prediction_Model/
+Credit_Risk_Prediction_System/
 │
 ├── data/
 │   ├── raw/
@@ -273,8 +273,8 @@ The winning XGBoost model was selected via `RandomizedSearchCV` on a 200,000-sam
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/KrishPatel-AI/AI_Credit_Risk_Prediction_Model.git
-cd AI_Credit_Risk_Prediction_Model
+git clone https://github.com/KrishPatel-AI/Credit_Risk_Prediction_System.git
+cd Credit_Risk_Prediction_System
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -597,7 +597,7 @@ Confusion Matrix:
 
 Contributions to improve data preprocessing, enhance the API schema, or extend test coverage are welcome:
 
-1. Fork the repository (`https://github.com/KrishPatel-AI/AI_Credit_Risk_Prediction_Model.git`).
+1. Fork the repository (`https://github.com/KrishPatel-AI/Credit_Risk_Prediction_System.git`).
 2. Create a feature branch:
    ```bash
    git checkout -b feature/expanded-api-schema
